@@ -34,10 +34,11 @@ Sales performance dropped ~15% this quarter. Leadership needed clarity on:
   - `top_products.csv`
   - `segments.csv`
 
-- **Visuals (PNG):**
-  - `region_sales.png`
-  - `top_products.png`
-  - `segments.png`
+- ## 📊 Visuals (PNG)
+
+![Sales by Region](charts/region_sales.png)
+![Top Products](charts/top_products.png)
+![Customer Segments](charts/segments.png)
 
 - **Code:**
   - `analysis.py` → SQL queries, DataFrame creation, CSV export, and chart generation.
