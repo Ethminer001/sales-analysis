@@ -16,15 +16,21 @@ Sales dropped ~15% this quarter. Leadership needed answers:
 
 **Regional Performance**  
 - South region declined **23%** — $47K in lost revenue  
-- West and East regions remained stable and strong
+- West and East regions remained stable and strong  
+
+![Regional Sales](https://github.com/Ethminer001/sales-analysis/blob/main/charts/region_sales.png?raw=true)
 
 **Top Products**  
 - Canon imageCLASS copier leads overall sales volume  
-- Binding systems and printers showed the largest declines
+- Binding systems and printers showed the largest declines  
+
+![Top Products](https://github.com/Ethminer001/sales-analysis/blob/main/charts/top_products.png?raw=true)
 
 **Customer Segments**  
 - Consumer segment dominates revenue but dropped **18%** in the South  
-- This segment drove the majority of the regional revenue loss
+- This segment drove the majority of the regional revenue loss  
+
+![Customer Segments](https://github.com/Ethminer001/sales-analysis/blob/main/charts/segments.png?raw=true)
 
 ## ✅ Recommended Actions
 
