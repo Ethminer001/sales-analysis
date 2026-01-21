@@ -4,10 +4,14 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Connect to MySQL
+import os
+from dotenv import load_dotenv
+load_dotenv()
+
 conn = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="123456789",
+    password=os.getenv("MYSQL_PASSWORD"),
     database="sales_analysis"
 )
 

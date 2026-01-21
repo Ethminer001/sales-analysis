@@ -40,6 +40,7 @@ Sales dropped ~15% this quarter. Leadership needed answers:
 ## 📁 Project Structure
 
 
+```
 sales-analysis/
 ├── README.md
 ├── data/
@@ -53,7 +54,7 @@ sales-analysis/
 └── src/
     └── analysis.py          # SQL queries + Pandas + charting
 
-
+```
 
 
 ## 🛠️ Tech Stack
