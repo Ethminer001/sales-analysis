@@ -1,120 +1,91 @@
-\# Sales Analysis Portfolio Project
+# 📈 Sales Performance Analysis
 
+End-to-end analysis of company sales data to diagnose a **15% quarterly sales decline** and deliver actionable recommendations.
 
+Built with SQL + Python + Pandas + Seaborn.
 
-\## 📌 Overview
+## 🎯 Business Problem
 
-This project analyzes company sales data using \*\*SQL + Python + Pandas + Seaborn\*\*.  
+Sales dropped ~15% this quarter. Leadership needed answers:
 
-The goal was to investigate a \*\*15% quarterly sales decline\*\* and identify where the drop is happening across regions, products, and customer segments.
+- Which **regions** are underperforming?
+- Which **products** are driving or dragging results?
+- Which **customer segments** are most impacted?
 
+## 🔍 Key Findings
 
+**Regional Performance**  
+- South region declined **23%** — $47K in lost revenue  
+- West and East regions remained stable and strong
 
----
+**Top Products**  
+- Canon imageCLASS copier leads overall sales volume  
+- Binding systems and printers showed the largest declines
 
+**Customer Segments**  
+- Consumer segment dominates revenue but dropped **18%** in the South  
+- This segment drove the majority of the regional revenue loss
 
+## ✅ Recommended Actions
 
-\## 🎯 Problem
+1. **Targeted email campaign** to 340 lapsed South-region customers  
+   → Expected lift: **$15K** within 60 days
 
-Sales performance dropped ~15% this quarter. Leadership needed clarity on:
+2. **Bundled promotions** on underperforming categories  
+   → Binding systems + printers with discount incentives
 
-\- Which \*\*regions\*\* are underperforming
+3. **Consumer segment retention program** in South region  
+   → Recover lost share and stabilize performance
 
-\- Which \*\*products\*\* drive or lag sales
+## 📁 Project Structure
 
-\- Which \*\*customer segments\*\* are most affected
 
+sales-analysis/
+├── README.md
+├── data/
+│   ├── regional_sales.csv
+│   ├── top_products.csv
+│   └── segments.csv
+├── charts/
+│   ├── region_sales.png
+│   ├── top_products.png
+│   └── segments.png
+└── src/
+    └── analysis.py          # SQL queries + Pandas + charting
 
 
----
 
 
+## 🛠️ Tech Stack
 
-\## 🔍 Findings
+- **SQL (MySQL)** → Data extraction & aggregation  
+- **Python** → Orchestration & automation  
+- **Pandas** → Data cleaning & transformation  
+- **Matplotlib + Seaborn** → Professional visualizations
 
-\- \*\*Regional Trends:\*\* West \& East strong, South weakest.
+## 🚀 How to Run
 
-\- \*\*Top Products:\*\* Canon imageCLASS copier leads; binding systems \& printers follow.
+```bash
+# 1. Clone the repo
+git clone https://github.com/Ethminer001/sales-analysis.git
+cd sales-analysis
 
-\- \*\*Customer Segments:\*\* Consumer segment dominates but shows decline in South region.
+# 2. Install dependencies
+pip install pandas numpy matplotlib seaborn mysql-connector-python
 
+# 3. Run the full analysis
+python src/analysis.py
+```
 
 
----
+This will:Connect to the database
+Run SQL queries
+Create summary CSVs
+Generate all charts in /charts/
 
+ ContactLinkedIn → linkedin.com/in/eriioluwa  
+Email → olowu.tayo200@gmail.com  
+GitHub → @Ethminer001
 
-
-\## ✅ Action
-
-\- Reinforce marketing in the South region.
-
-\- Review underperforming product categories for promotions.
-
-\- Focus retention campaigns on Consumer segment.
-
-
-
----
-
-
-
-\## 📊 Deliverables
-
-
-
-\### \*\*Datasets (CSV)\*\*
-
-\- `data/regional\_sales.csv`
-
-\- `data/top\_products.csv`
-
-\- `data/segments.csv`
-
-
-
-\### \*\*Visuals (PNG)\*\*
-
-!\[Sales by Region](charts/region\_sales.png)
-
-!\[Top Products](charts/top\_products.png)
-
-!\[Customer Segments](charts/segments.png)
-
-
-
-\### \*\*Code\*\*
-
-\- `src/analysis.py` → SQL queries, DataFrame creation, CSV export, and chart generation.
-
-
-
----
-
-
-
-\## 🛠️ Tech Stack
-
-\- \*\*SQL (MySQL)\*\* → Data extraction  
-
-\- \*\*Python\*\* → Analysis \& automation  
-
-\- \*\*Pandas\*\* → Data manipulation  
-
-\- \*\*Matplotlib / Seaborn\*\* → Visualization  
-
-
-
----
-
-
-
-\## 🚀 How to Run
-
-1\. Clone the repo:
-
-&nbsp;  ```bash
-
-&nbsp;  git clone https://github.com/Ethminer001/sales-analysis.git
-
-
-
+ AcknowledgmentsInspired by real-world sales performance diagnostics.
+Built as part of my data analytics portfolio.From raw database → SQL insights → Python analysis → clear business recommendations.
