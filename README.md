@@ -4,6 +4,8 @@ End-to-end analysis of company sales data to diagnose a **15% quarterly sales de
 
 Built with SQL + Python + Pandas + Seaborn.
 
+> **Data:** a public Kaggle sales dataset, loaded into MySQL. The business setting ("leadership" asking for answers) is a practice scenario, not a real company. The $15K campaign lift is an expected figure, not a measured result.
+
 ## 🎯 Business Problem
 
 Sales dropped ~15% this quarter. Leadership needed answers:
